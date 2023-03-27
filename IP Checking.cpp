@@ -58,7 +58,6 @@ int main()
         vector<int> dec= convert(d);
         vector<int> bin= bintodecip(b);
         string s=check(dec,bin);
-        //printf("Case %d: %s\n",i,s);
         cout<< "Case "<<i<<": "<<s<<endl;
     }
 }
